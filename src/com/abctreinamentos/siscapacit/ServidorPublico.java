@@ -5,7 +5,7 @@ package com.abctreinamentos.siscapacit;
 /*
  * Autor: Luiz Eduardo Gurgel Marcelino de Oliveira
  * Versão: 1.0
- * Descrição: Classe que representa o Servidor Público.
+ * Descrição: Classe que representa os Servidores Públicos.
  */
 
 /****************************/
