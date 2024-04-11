@@ -5,20 +5,20 @@ package com.abctreinamentos.siscapacit;
 /*******************/
 public class Curso {
 /*******************/	
-	 /*ATRIBUTOS*/
-	 private int idcurso; 
-	 private String nome; 
-	 private String formarealizacao; 
-	 private String ofertante;
-	 private double valor; 
-	
-	 //Construtores
-	 
-	 public Curso() {
-		 
-	 }
-	 
-	 public Curso(int idcurso, String nome, String formarealizacao, double valor, String ofertante) {
+	/*ATRIBUTOS*/
+	private int idcurso; 
+	private String nome; 
+	private String formarealizacao; 
+	private String ofertante;
+	private double valor; 
+
+	//Construtores
+
+	public Curso() {
+
+	}
+
+	public Curso(int idcurso, String nome, String formarealizacao, double valor, String ofertante) {
 		this.idcurso = idcurso;
 		this.nome = nome;
 		this.formarealizacao = formarealizacao;
@@ -27,7 +27,7 @@ public class Curso {
 	}
 
 	//Getters and Setters
-	 
+
 	public int getIdcurso() {
 		return idcurso;
 	}
@@ -66,7 +66,14 @@ public class Curso {
 
 	public void setOfertante(String ofertante) {
 		this.ofertante = ofertante;
+	}
+
+	@Override
+	public String toString() {
+		return "Curso [idcurso=" + idcurso + ", nome=" + nome + ", formarealizacao=" + formarealizacao + ", ofertante="
+				+ ofertante + ", valor=" + valor + "]";
 	} 
 
 	
+
 }
