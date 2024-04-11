@@ -163,6 +163,8 @@ public class SiscapacitApp {
 		}
 		if(!encontrou) 
 			System.out.println("O Curso com a ID informada não existe.");
+		else
+			System.out.println("A Exclusão do Curso com o ID "+idCurso+" foi realizada com sucesso!");
 	}
 
 	public static void main(String[] args) {
@@ -174,7 +176,7 @@ public class SiscapacitApp {
 		//sistema.calcularFolhaServidoresPublicos();
 		//sistema.listarServidorPublico(2);
 		//sistema.excluirServidorPublico(1);
-		ServidorPublico servidorAlterado = new ServidorPublico(2, "Luiz Eduardo", "IFRN", "Estudante", "Natal", "luizeduardo@gmail.com", 0);
+		//ServidorPublico servidorAlterado = new ServidorPublico(2, "Luiz Eduardo", "IFRN", "Estudante", "Natal", "luizeduardo@gmail.com", 0);
 		//sistema.alterarServidorPublico(servidorAlterado);
 		//sistema.listarServidoresPublicos();
 		//sistema.calcularFolhaServidoresPublicos();
